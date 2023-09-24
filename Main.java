@@ -10,19 +10,19 @@ public class Main {
         myZoo.addAnimal(lion);
 
         // Affichage des informations sur l'animal
-        System.out.println("Informations sur l'animal :");
+
         System.out.println("Famille : " +lion.getFamily());
         System.out.println("Nom : " + lion.getName());
         System.out.println("Âge : " + lion.getAge() + " ans");
 
 
         // Affichage des informations sur le zoo
-        System.out.println("Informations sur le zoo :");
+
         System.out.println("Nom du zoo : " + myZoo.getName());
         System.out.println("Ville : " + myZoo.getCity());
         System.out.println("Nombre de cages : " + myZoo.getNumberOfCages());
 
-        System.out.println("\nAnimaux dans le zoo :");
+        System.out.println("Animaux dans le zoo :");
         for (Animal animal : myZoo.getAnimals()) {
             if (animal != null) {
                 System.out.println(animal);
